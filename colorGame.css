@@ -1,0 +1,64 @@
+body{
+  text-align: center;
+  background: #232323;
+  color:white;
+  font-family:Source sans Pro;
+  text-transform:uppercase;
+  letter-spacing: 0.5em;
+}
+.jumbotron{
+  background-color: steelblue;
+  margin:0;
+}
+.bar{
+  background: white;
+  margin-bottom: 1.8rem;
+}
+.square{
+  background:#232323;
+  border-radius: 15%;
+  padding:7em;
+  border: solid #232323 5px;
+  transition: background 0.6s;
+}
+h1{
+  background:inherit;
+  font-size: 2em;
+}
+.button{
+  border: 0;
+  background: none;
+  font-family:Source sans Pro;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: steelblue;
+  transition: all 0.3s;
+}
+button:hover{
+  color: white;
+  background: steelblue;
+}
+button:focus{
+  outline: none;
+}
+#display{
+  font-weight: 900;
+  display: inline-block;
+  width: 28em;
+}
+#RGB{
+  line-height: 2em;
+  font-weight: 900;
+  font-size: 3.5em;
+  text-shadow:0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+}
+.mouseI{
+  background: steelblue;
+}
+.mouseO{
+  background: white;
+}
+.selected{
+  background: steelblue;
+  color: white;
+}
